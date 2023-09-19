@@ -20,7 +20,7 @@ const handleDelete = (id) => {
 
   return (
     <>
-      <h1>My To-Do list</h1>
+      <h1> To-Do list</h1>
       <ul className="list-group list-group-flush">
         {todoList.map((todo) => (
           <ToDo
